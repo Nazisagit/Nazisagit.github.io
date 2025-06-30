@@ -1,0 +1,11 @@
+title: Nazrin's portfolio
+author: Pengiran Nazrin
+description: A simple site to showcase the work of Pengiran Nazrin
+baseurl: ""
+url: "https://Nazisagit.github.io"
+theme: jekyll-theme-merlot
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
