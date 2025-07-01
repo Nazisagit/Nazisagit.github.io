@@ -3,12 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="author" description="Pengiran Nazrin">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>{{ page.title }}</title>
 </head>
 <body>
   {% include header.html %}
-  <main>
-    {{ content }}
+  <main id="content-wrapper">
+    <div class="inner clearfix">
+      <section id="main-content">
+        {{ content }}
+      </section>
+    </div>
   </main>
   {% include footer.html %}
 </body>
